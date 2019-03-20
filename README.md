@@ -100,7 +100,7 @@ INSERT INTO dependente VALUES (2, 'Chiquinha', 8);
 INSERT INTO dependente VALUES (3, 'Mariana', 4);
 ```
 
-Segue lista de consultas:
+**Segue lista de consultas:**
 
 * Selecionar todos os Funcionarios;
 * Selecionar o Departamento com id igual 6;
