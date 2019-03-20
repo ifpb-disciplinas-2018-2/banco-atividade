@@ -31,7 +31,7 @@ CREATE TABLE funcionario(
   end_cod integer,
   salario double precision,
   PRIMARY KEY (id),
-  FOREIGN KEY (departamento_id) REFERENCES departamento (id) 
+  FOREIGN KEY (departamento_id) REFERENCES departamento (id), 
   FOREIGN KEY (end_cod) REFERENCES endereco (id) 
 );
 
