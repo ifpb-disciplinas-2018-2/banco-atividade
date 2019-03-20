@@ -1,11 +1,15 @@
-## Consultas
+## Segunda avaliação
 
 
-Em grupos de (até) três alunos realizem as seguintes atividades:
+**Prazo: 29/03/2019 às 23h59**
 
-### Primeira atividade
+**Formato:Arquivo PDF com as respostas**
 
-A primeira etapa da atividade consiste em realizar o processo de engenharia reversa. Ou seja, tendo acesso as tabelas vamos desenvolver o mapeamento relacional e lógico. É preciso criar o diagrama entidade relacionamento! 
+**Enviar email: <ricardo.job@ifpb.edu.br>**
+
+Esta atividade é equivalente a segunda avaliação do 4 bimestre e será realizada em grupos de (até) três alunos.
+
+A primeira etapa da atividade consiste em realizar o processo de engenharia reversa. Ou seja, tendo acesso as tabelas vamos desenvolver o mapeamento relacional e lógico. É preciso criar o diagrama entidade relacionamento.
 
 ```sql
 CREATE TABLE departamento(
@@ -72,9 +76,7 @@ CREATE TABLE alocacao(
 );
 ```
 
-### Segunda atividade
-
-A segunda etapa da atividade consiste em realizar um conjunto de consultas na base de dados criada. Para tal, vamos utilizar os seguintes dados:
+A segunda etapa desta atividade consiste em realizar um conjunto de consultas na base de dados criada. Para tal, vamos utilizar os seguintes dados:
 
 ```sql
 INSERT INTO departamento VALUES (7, 'UNINFO');
@@ -112,4 +114,3 @@ INSERT INTO dependente VALUES (3, 'Mariana', 4);
 * Selecionar os Departamentos que não possuem Gerente; 
 * Selecionar o nome dos Funcionarios que possuem Dependentes e o nome do Dependente começa com a letra `M`;
 * Selecionar o nome do funcionario que recebe o maior salario entre todos os funcionarios;
- 
